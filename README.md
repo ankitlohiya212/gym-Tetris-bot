@@ -2,13 +2,13 @@
 
 **This code plays the game Tetris, provided by open-ai gym, on its own and does a pretty good job at it.**
 
-It does not use any kind of Machine Learning or Deep Reinforcement Learning. Although it would not be difficult to program that in for making decisions as to which new state is the best. I tried using it but found that the bot was doing a pretty amazing job without it.
 
 ## Demo
 ![Final Result of a Game](./Game1.png)
 
 ## How Does it Work
-This bot does not use any kind of Machine Learning for its purposes.
+It does not use any kind of Machine Learning or Deep Reinforcement Learning. Although it would not be difficult to program that in for making decisions as to which new state is the best. I tried using it but found that the bot was doing a pretty amazing job without it.
+
 #### The way it works is that:
 #### 1.Take in gym new states:
 Once we start playing in the gym-tetris, we keep getting new states(How the tetris board looks),reward, done and information about the tetris board(which was liks this:curr_info = {'board_height': 0, 'statistics': {'Z': 0, 'O': 0, 'J': 0, 'T': 0, 'I': 0, 'S': 0, 'L': 0}, 'score': 0, 'current_piece': '', 'next_piece': '', 'number_of_lines': 0})
