@@ -1,6 +1,8 @@
 # gym-Tetris-bot
 
-This code plays the game Tetris, provided by open-ai gym, on its own and does a pretty good job at it.
+**This code plays the game Tetris, provided by open-ai gym, on its own and does a pretty good job at it.**
+
+It does not use any kind of Machine Learning or Deep Reinforcement Learning. Although it would not be difficult to program that in for making decisions as to which new state is the best. I tried using it but found that the bot was doing a pretty amazing job without it.
 
 ## Demo
 ![Final Result of a Game](./Game1.png)
