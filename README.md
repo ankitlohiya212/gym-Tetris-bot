@@ -3,6 +3,7 @@
 This code plays the game Tetris, provided by open-ai gym, on its own and does a pretty good job at it.
 
 ## Demo
+![Final Result of a Game](./Game1.png)
 
 ## How Does it Work
 This bot does not use any kind of Machine Learning for its purposes.
