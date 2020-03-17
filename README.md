@@ -36,6 +36,7 @@ These steps are looped over and over until the game is over.
 1. With the O piece, the next states are not very accurate and causes it to not play optimally.
 2. The Current piece is just blocked out by putting zeros into it at the top of the tetris board. This becomes a problem when the board height increases.
 3. At very high scores, there seems to be some randomness in the moves .The bot cannot adjust to this randomness causing for a less than optimal move.
+4. Another Change that could be done is use some sort of Deep Reinforcement Learning Technique to enhance its performance and probably overcome all the shortcomings as well.
 
 ## Requirements
 
